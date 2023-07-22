@@ -1,0 +1,131 @@
+
+.img{
+    width: 20%;
+}
+
+.profile{
+    justify-content: center;
+    display: flex;
+}
+.detail{
+    padding: 2%;
+    background-color: rgb(236, 225, 231) ;
+    border-radius: 10%;
+    box-shadow: 5px 5px #888888;
+    border: 0.2vw solid black;
+    text-align: center;
+    width: 30%;
+}
+
+.pending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.pending th{
+    background-color: rgb(236, 225, 231);
+    width: 10%;
+    font-weight: bolder;
+    border: 2px solid blue;
+    padding: 0.5%;
+    text-overflow: clip;
+}
+.pending td{
+    background-color: rgb(236, 225, 231);
+    width: 10%;
+    font-weight: bolder;
+    border: 2px solid blue;
+    padding: 0.5%;
+    text-overflow: clip;
+}
+.deleteprobutton{
+    font-size: 60%;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    padding: 0.1%;
+    width: 40%;
+    margin-left: 2%;
+}
+.deleteprobutton:hover{
+    background-color: rgb(191, 35, 35);
+}
+.updatepro{
+    background-color: darkgreen;
+}
+.updatepro:hover{
+    background-color: rgb(62, 219, 41)!important;
+}
+.scrolldivpro{
+    max-height: 30vh;
+    overflow-y: scroll;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainprofile{
+    justify-content: center;
+}
+
+.secret{
+    display: none;
+}
+.serialprofile{
+    width: 5%!important;
+}
+
+.namecursor{
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+h5{
+    color: red;
+    font-size: 125%;
+}
+.buttdiv{
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    background-color: aqua;
+    width: 15%;
+    margin: 1%;
+    padding: 0.5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid blue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.butt:hover{
+    background-color: rgb(96, 221, 221);
+    color: white;
+}
+@media screen and (max-width: 780px) {
+    .detail {
+        width: 50%;
+    }
+    h5{
+        font-size: 150%!important;
+    }
+    h6{
+        font-size: 100%!important;
+    }
+}
+@media screen and (max-width: 540px) {
+    .detail {
+        width: 50%;
+        
+    }
+    h5{
+        font-size: 70%!important;
+    }
+    h6{
+        font-size: 70%!important;
+    }
+}

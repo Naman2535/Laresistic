@@ -1,0 +1,182 @@
+.inputstyle{
+    display: block;
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+}
+
+.button{
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+    background-color: aqua;
+}
+
+.Add-shop-button{
+    margin: 3%;
+    padding: 1%;
+    width: 25%;
+    border: 0.1vh solid blue;
+    background-color: aqua;
+}
+
+.h1{
+    margin: 2%;
+    text-align: center;
+}
+
+#nores{
+    color: red;
+}
+
+.Add-shop{
+    /* justify-content:center; */
+    width: 33%;
+    margin: auto;
+}
+.span{
+    color: red;
+    margin-top: -4%;
+    display: block;
+    margin-left: 3%;
+    font-weight: bolder;
+}
+.shopsclass{
+    text-align: center;
+}
+.shopsclass ul li{
+    display: inline-block;
+    border: 0.1vh solid blue;
+    padding: 0.5%;
+    width: 20%;
+    font-size: 1vw;
+    background-color: rgb(236, 225, 231) ;
+    font-weight: bold;
+    justify-content: center;
+    /* opacity: 50%; */
+}
+
+.deletebutton{
+    font-size: 60%;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    padding: 0.1%;
+    width: 30%;
+    margin-left: 2%;
+}
+.deletebutton:hover{
+    background-color: rgb(191, 35, 35);
+}
+.update{
+    background-color: darkgreen;
+}
+.update:hover{
+    background-color: rgb(62, 219, 41)!important;
+}
+.main{
+    text-align: center;
+}
+.main ul li{
+    display: inline-block;
+    width: 40%;
+    padding: 1%;
+}
+
+.shopsclass ul{
+    margin: 0%;
+    padding: 0%;
+}
+.namecursor{
+    cursor: pointer;
+}
+.serialshop{
+    width: 5%!important;
+}
+
+.searchbox{
+    margin-bottom: 2%;
+    width: 50%;
+    padding: 1%;
+    border: 0.3vh solid blue;
+}
+
+.scrolling{
+    height:30vh;
+    overflow-y: scroll;
+    /* margin: 1%; */
+    /* scroll-snap-align: hidden; */
+}
+.scrollingroute{
+    /* min-height: 0vh;
+    height:30vh; */
+    overflow-y: scroll;
+    /* scroll-snap-align: hidden; */
+}
+
+.namecursor:hover{
+    background-color: rgb(158, 152, 152);
+}
+
+.shopsclasscheck{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopsclasscheck td{
+    background-color: rgb(236, 225, 231);
+    width: 10%;
+    font-weight: bolder;
+    border: 2px solid blue;
+    padding: 0.5%;
+    text-overflow: clip;
+}
+.serialcheck{
+    width: 5%!important;
+}
+
+.scrolldiv{
+    max-height: 30vh;
+    overflow-y: scroll;
+    width: 100%;
+    margin: 1%;
+    /* display: contents; */
+}
+
+.add-shop-butt{
+    background-color: rgb(21, 102, 11);
+    border: 2px solid white;
+    font-weight: bolder;
+    color: white;
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+    cursor: pointer;
+}
+.add-shop-butt:hover{
+    background-color: rgb(62, 219, 41)!important;
+}
+@media screen and (max-width: 780px) {
+    .hideshops {
+        display: none;
+    }
+    .Add-shop{
+        width:70%;
+    }
+    .scrolldiv{
+        max-height: 50vh;
+    }
+}
+@media screen and (max-width: 560px) {
+    .hideshops2 {
+        display: none;
+    }
+    .add-shop-butt{
+        width: 60%;
+        margin: 5%;
+    }
+}

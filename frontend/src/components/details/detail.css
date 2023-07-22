@@ -1,0 +1,134 @@
+.backup{
+    background-color: rgb(236, 250, 248);
+    height: 35vh;
+    padding: 0.5%;
+    margin: 2%;
+    /* width: 96%; */
+    /* opacity: 50%; */
+    backdrop-filter: blur(10px);
+    background: transparent;
+    visibility: visible;
+    border: 5px solid black;
+    box-shadow: 10px 10px 0px 0px cadetblue;
+    border-radius: 30px;
+    /* justify-content: center; */
+    display: flex;
+}
+/* .backup2{
+    
+} */
+.detailbutt{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 150%;
+    /* margin: 1%; */
+}
+
+.backup img{
+    width: 100%;
+    /* height: auto; */
+    border-radius: 50%;
+}
+.left{
+    text-align: center;
+    width: 50%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(183, 192, 192);
+    border-radius: 20px;
+    border: 1.5px solid black;
+}
+.left2{
+    text-align: center;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(183, 192, 192);
+    border-radius: 20px;
+    border: 1.5px solid black;
+    /* margin-left: 20%; */
+}
+.right{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    margin-left: 20%;
+}
+.right2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-left: 15%;
+}
+/* .left h1{ */
+    /* padding: 1%; */
+    /* color: white; */
+/* } */
+.left h5{
+    /* background-color: rgb(183, 192, 192); */
+    /* width: %; */
+    /* color: black; */
+    margin: 3%;
+}
+.detailbutt:hover{
+    cursor: pointer;
+}
+
+.inputselect{
+    width: 30%;
+    margin-left: 35%;
+}
+.label{
+    /* padding-bottom: 1%; */
+    font-size: 20px;
+}
+.calbutt{
+    width: 20%;
+    margin-left: 40%;
+    background-color: rgb(21, 102, 11);
+    text-align: center;
+    color: white;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hide{
+    opacity: 0;
+}
+@media screen and (max-width: 780px) {
+    .backup {
+        padding: 1%;
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 520px) {
+    .backup {
+        padding: 1%;
+        height: 15vh;
+    }
+    .backup2{
+        height: 30vh;
+    }
+    .detailbutt{
+        font-size:70%;
+    }
+    .left h1{
+        font-size: 80%;
+    }
+    .left h5{
+        font-size: 80%;
+    }
+}

@@ -1,0 +1,20 @@
+/* .row{
+    display: flex,
+    borderTop: 1px solid #EEE,
+    padding-Top: 8,
+    paddingBottom: 8,
+} */
+
+.divcheck{
+    height: 82vh;
+    display:block;
+    justify-content: center;
+}
+.buttstyle1{
+    /* margin: 3%; */
+    padding: 1%;
+    width: 100%;
+    border: 0.1vh solid white;
+    background-color: blue;
+    color: white;
+}

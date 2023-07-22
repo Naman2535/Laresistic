@@ -1,0 +1,45 @@
+/* .payment{
+    width: 100%;
+} */
+
+.inputstyle{
+    display: block;
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+}
+
+.button{
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+    background-color: aqua;
+}
+
+.payment{
+    /* justify-content:center; */
+    width: 33%;
+    margin: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.inpcheck{
+    width: 100%;
+    height: 3vh;
+}
+.h1{
+    padding: 1%;
+    background-color: coral;
+    border-radius: 10px;
+    border: 2px solid black
+}
+@media screen and (max-width: 780px) {
+    .payment {
+        width: 70%;
+    }
+}

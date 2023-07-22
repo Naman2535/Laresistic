@@ -1,0 +1,32 @@
+.inputstyle{
+    display: block;
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+}
+
+.button{
+    margin: 3%;
+    padding: 2%;
+    width: 94%;
+    border: 0.1vh solid blue;
+    background-color: aqua;
+}
+
+.h1{
+    margin: 2%;
+    text-align: center;
+}
+
+.login{
+    /* justify-content:center; */
+    width: 33%;
+    margin: auto;
+}
+
+@media screen and (max-width: 780px) {
+    .login{
+        width:70%;
+    }
+}
