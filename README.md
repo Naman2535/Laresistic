@@ -22,7 +22,6 @@ PDF Ledger Generation: The website provides a feature to generate personalized P
 Personalized Profile Section: Each user, such as shop owners or administrators, gets access to a personalized profile section. It allows them to manage their account details, preferences, and security settings.
 
 Technology Stack:
-
 Frontend: React.js - A popular and efficient JavaScript library for building interactive user interfaces.
 Backend: Node.js and Express.js - A powerful combination for developing robust server-side applications.
 Database: MongoDB - A NoSQL database, chosen for its flexibility and scalability in handling structured and unstructured data.
